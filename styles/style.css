@@ -1,0 +1,193 @@
+body {
+    font-family: Sevillana;
+    font-style: normal;
+}
+
+.container0 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+    justify-content: center;
+    background: rgb(120, 148, 93);
+}
+
+.container0_2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(251, 206, 147);
+}
+
+ul.hr {
+    padding: 4px; /* Значение полей */
+}
+
+ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 20px; /* Отступ слева */
+}
+
+.container {
+    display: flex; 
+}
+
+.container1_1 div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 66%;
+    justify-content: center;
+    background: rgb(255, 225, 134);
+} 
+
+.container1_1 {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    margin: 10px;
+    justify-content: center;
+    color: brown;
+}
+
+.container1_2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container1_3 {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    margin: 10px;
+    justify-content: center;
+    background: rgba(254, 185, 21, 1);
+}
+
+.w-300px {
+    width: 300px;
+}
+
+.w-350px {
+    width: 350px;
+}
+
+.container1_4 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: center;
+    background: rgba(254, 185, 21, 1);
+}
+
+.container1_5 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+.w-200px {
+    height: 300px;
+    width: 200px;
+}
+
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 34%;
+    justify-content: center;
+    background: rgba(155, 204, 96, 1);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    background: rgb(251, 188, 0);
+}
+
+.container3 {
+    display: flex;
+    height: 600px;
+    justify-content: space-around;
+    background: rgba(224, 224, 224, 1);
+}
+
+.container4 {
+    display: flex;
+    height: 80px;
+    width: 300px;
+    margin: 10px;
+    justify-content: center;
+    background: rgba(250, 250, 250, 1);
+}
+
+.stone {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 34%;
+    justify-content: center;
+    background: rgba(24, 90, 56, 0.886);
+}
+
+.ball {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 66%;
+    justify-content: center;
+    background: rgba(95, 91, 79, 0.638);
+}
+
+.m {
+    margin-top: 50px;
+}
+
+.image-container {
+    width: 350px; /* задайте размеры контейнера */
+    height: 250px;
+    overflow: hidden; /* скроет часть изображения, которая выйдет за границы контейнера */
+}
+
+.image-container img {
+    width: 100%; /* растягиваем изображение на всю ширину контейнера */
+    height: auto; /* сохраняем пропорции */
+    transition: transform 0.3s ease; /* добавляем плавный переход для эффекта */
+}
+
+.image-container img:hover {
+    transform: scale(1.2); /* увеличиваем изображение в 1.2 раза при наведении */
+}
+
+.image-container1 {
+    width: 400px; /* задайте размеры контейнера */
+    height: 300px;
+    overflow: hidden; /* скроет часть изображения, которая выйдет за границы контейнера */
+}
+
+.image-container1 img {
+    width: 100%; /* растягиваем изображение на всю ширину контейнера */
+    height: auto; /* сохраняем пропорции */
+    transition: transform 0.3s ease; /* добавляем плавный переход для эффекта */
+}
+
+.image-container1 img:hover {
+    transform: scale(1.2); /* увеличиваем изображение в 1.2 раза при наведении */
+}
